@@ -5,10 +5,11 @@
  * @returns {string}
  */
 
-const solution = (a, b) => {
-  return 0;
+const solution = (x, i = 0, newStr = "") => {
+  if(i === x){
+     return newStr;
+  };
+  newStr = newStr + "hello";
+  return solution(x, i + 1, newStr) 
 };
-
-module.exports = {
-  solution,
-};
+module.exports ={ solution, };
