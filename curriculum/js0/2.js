@@ -1,5 +1,5 @@
 /**
- * Takes in 3 numbers, return the largest
+ * Takes in 3 numbers, returns their sum
  * @param {number} a
  * @param {number} b
  * @param {number} c
@@ -7,14 +7,8 @@
  */
 
 const solution = (a, b, c) => {
-  if((a > b)&&(a > c)){
-    return a;
-  }
-  if((b > a)&&(b > c)){
-    return b;
-  }
-  return c;
-}; 
+  return 0;
+};
 
 module.exports = {
   solution,
